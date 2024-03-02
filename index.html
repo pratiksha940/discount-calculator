@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&display=swap" rel="stylesheet">
+    <title>Discount calculator</title>
+    <style>
+        body{
+            margin-top: 150px;
+            box-shadow: 10px 10px 3px grey;
+            width: 500px;
+            padding-top: 30px;
+            
+            
+        }
+        h2{ 
+            font-family: "Arimo", sans-serif;;
+        }
+        .discount{
+            color: cadetblue;
+        }
+        button [type="submit"]{
+            background-color: #4caf50;
+            color: beige;
+            width: 200px;
+            border-radius: 10px;
+        }
+        h2,p{
+            color: cadetblue;
+            font-family: "Madimi One", sans-serif;
+        }
+        .heading{
+            padding: 2px;
+            margin-left: 100px;
+        }
+        .enter{
+            margin-left: 20px;
+        }
+        .bill{
+            margin-left: 15px;
+            padding: 5px;
+            font-family: "Madimi One", sans-serif;
+            
+        }
+        .discount{
+            margin-left: 10px;
+            font-family: "Madimi One", sans-serif;
+        }
+        .num1{
+            margin-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-color: beige;
+        }
+        .num1:hover{
+            border-color: aqua;
+        }
+        .calculate{
+            margin-left: 18px;
+            font-family: "Libre Baskerville", serif;
+        }
+        .total{
+            margin-left: 20px;
+            font-family: "Madimi One", sans-serif;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h2 class="heading">DISCOUNT CALCULATOR</h2>
+    <P class="enter">Enter the bill amount and discount in percentage</P>
+    <form action="">
+        <label for="" style="color: cadetblue;" class="bill">Bill Amount</label><br>
+        <input type="number" class="num1"><br>
+        <label for="" class="discount" ><span style="width: 170px; border-radius: 5px;" class="discount">Discount Percentage</span></label><br>
+        <input type="number" class="num1"><br><br>
+        <button type="submit" style="background-color: #4caf50; width: 170px; border-radius: 6px;color: beige;" class="calculate">Calculate</button><br><br>
+        <label for="" style="color: cadetblue;" class="total">Total Discount Amount</label><br><br>
+        
+    </form>
+</body>
+</html>
